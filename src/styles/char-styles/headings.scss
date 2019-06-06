@@ -1,0 +1,12 @@
+$font-subhead: Helvetica, sans-serif;
+$color-subhead: grey;
+
+h4 {
+    color: $color-subhead;
+    font: 100% $font-subhead;
+    
+}
+
+header img {
+    max-width: 30px;
+}

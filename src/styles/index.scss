@@ -1,5 +1,17 @@
-$body-color: blue;
-
+@import 'char-styles/headings.scss';
+ 
 body {
-  color: $body-color;
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+main {
+  max-width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  // margin: 0 auto;
 }
