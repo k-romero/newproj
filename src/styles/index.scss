@@ -1,17 +1,21 @@
+@import 'nav-styles/nav.scss';
 @import 'char-styles/headings.scss';
  
-body {
-  max-width: 960px;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+html
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
-main {
-  max-width: 30%;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  // margin: 0 auto;
+
+body {
+  font-family: Helvetica, sans-serif
+}
+
+.content {
+  width: 90%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
 }
