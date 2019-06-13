@@ -90,6 +90,9 @@ nav ul li a {
   .dropdown-content a:hover {
     background-color: #ddd;
   }
+  .dropdown-content a:last-child:hover {
+    background-color: cornsilk;
+  }
 
   .dropdown:hover .dropdown-content {
     display: block;
