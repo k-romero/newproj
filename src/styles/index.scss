@@ -1,5 +1,6 @@
 @import 'nav-styles/nav.scss';
 @import 'char-styles/headings.scss';
+@import 'content-main/content-main.scss';
  
 html
   body {
@@ -13,7 +14,7 @@ body {
 }
 
 .content {
-  width: 90%;
+  width: 95%;
   margin: 4em auto;
   font-size: 20px;
   line-height: 30px;
