@@ -30,8 +30,10 @@ nav ul {
     overflow: hidden;
     color: #fff;
     padding: 0;
-    text-align: center;
+    text-align: right;
     margin: 0;
+    padding-top: 12px;
+    padding-right: 36px;
     transition: 1s cubic-bezier(0, 0, 0.2, 1);
 }
 
@@ -45,7 +47,8 @@ nav.red ul {
 
 nav ul li {
     display: inline-block;
-    padding: 16px;
+    padding: 0px 12px;
+    
 }
 
 nav ul li a {
@@ -170,6 +173,7 @@ nav ul li a {
     nav ul {
         display: none;
         background: $myGrey;
+        padding: 0;
     }
 
     nav.black ul {

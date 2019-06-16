@@ -10,7 +10,7 @@
 .twoA {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    grid-auto-rows: 30%;
+    // grid-auto-rows: 30%;
     height: 100%;
 }
 
