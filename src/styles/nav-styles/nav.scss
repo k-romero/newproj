@@ -1,4 +1,5 @@
 $myGrey: #3e3d3d;
+$myGreyLight: #666666;
 $myYellow: rgb(231, 198, 12);
 
 
@@ -172,7 +173,7 @@ nav ul li a {
 
     nav ul {
         display: none;
-        background: $myGrey;
+        background: $myGreyLight;
         padding: 0;
     }
 
