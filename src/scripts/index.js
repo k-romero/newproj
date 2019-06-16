@@ -4,8 +4,15 @@ console.log('webpack starterkit');
 
 let navElm = document.querySelector('.menu-icon');
 let navMenu = document.querySelector('nav ul');
-navElm.onclick = function() {
+let menuIcon = document.getElementById('menuIcon');
+navElm.onclick = function(){
     navMenu.classList.toggle('showing');
+    if (menuIcon.className === 'fa fa-bars'){
+        menuIcon.className = ('fa fa-times');
+    }
+    else {
+        menuIcon.className = ('fa fa-bars');
+    }
 };
 
 const nav = document.querySelector('nav');
