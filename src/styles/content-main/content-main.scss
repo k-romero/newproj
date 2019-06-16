@@ -7,8 +7,10 @@
 
 //   GRID
 
-.heroWrapper {
+.twoA {
     display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-auto-rows: 30%;
     height: 100%;
 }
 
@@ -59,18 +61,18 @@
     opacity: 0.5;
 }
 
-.heroWrapper {
+.twoA {
     border: 2px solid black;
     border-radius: 5px;
     background-color: none;
 }
 
-.heroWrapper div {
-    padding: 5%;
+.twoA div {
+    // padding: 5%;
     border: 2px solid black;
     border-radius: 5px;
     background-color: aquamarine;
-    padding: 1em;
+    // padding: 1em;
     color: black;
     opacity: 1;
 }
