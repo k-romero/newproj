@@ -5,7 +5,9 @@ console.log('webpack starterkit');
 let navElm = document.querySelector('.menu-icon');
 let navMenu = document.querySelector('nav ul');
 let menuIcon = document.getElementById('menuIcon');
-navElm.onclick = function(){
+
+
+function navFunction(){
     navMenu.classList.toggle('showing');
     if (menuIcon.className === 'fa fa-bars'){
         menuIcon.className = ('fa fa-times');
@@ -15,7 +17,14 @@ navElm.onclick = function(){
     }
 };
 
-const nav = document.querySelector('nav');
+navElm.onclick = navFunction;
+
+var nav = document.querySelector('nav');
+
+// mouseleave is broken
+// nav.addEventListener("mouseleave",navFunction);
+
+
 
 window.addEventListener('scroll', function() { 
     let nav = document.querySelector('nav');
